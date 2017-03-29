@@ -3,7 +3,7 @@ This is where Adam and David will share files and slides with you.
 
 ### Links
 
-[Submit Labs] < Need Link >
+[Submit Labs](https://docs.google.com/forms/d/e/1FAIpQLSeUrJubHzo9UvrPgLKW5y0pJDuhR9XwR9yyapI2tTWsugChHw/viewform)
 
 [David's Demo Site](https://dwolverton.github.io/fe-demo/) - A work-in-progress site that demonstrates a few topics including grid layout, CSS positioning and a jQuery playground.
 
