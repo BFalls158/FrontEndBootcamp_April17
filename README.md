@@ -1,5 +1,7 @@
-Front-End April File Share
-This is where Adam and David will share files and slides with you.
+## Front-End April File Share
+_Welcome to Bootcamp!_
+
+This GitHub repo is where Adam and David will share files and slides with you. Below are links to some additional resources that we will talk about as the class goes on.
 
 ### Links
 
