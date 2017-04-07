@@ -1,9 +1,13 @@
-Front-End April File Share
-This is where Adam and David will share files and slides with you.
+## Front-End April File Share
+_Welcome to Bootcamp!_
+
+This GitHub repo is where Adam and David will share files and slides with you. Below are links to some additional resources that we will talk about as the class goes on.
 
 ### Links
 
-[Submit Labs] < Need Link >
+[Submit Labs](https://docs.google.com/forms/d/e/1FAIpQLSeUrJubHzo9UvrPgLKW5y0pJDuhR9XwR9yyapI2tTWsugChHw/viewform)
+
+[How to Debug](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong) - An introduction(for beginners) on how to start fixing syntax and logical errors.
 
 [David's Demo Site](https://dwolverton.github.io/fe-demo/) - A work-in-progress site that demonstrates a few topics including grid layout, CSS positioning and a jQuery playground.
 
