@@ -1,0 +1,103 @@
+@media (min-width: 356px) {
+
+  body {
+    background-color: lightgrey;
+  }
+
+  .zindex-content {
+    margin-top: 100px;
+  }
+
+}
+
+@media (min-width: 700px) {
+
+  body {
+    background-color: lightpink;
+  }
+
+  .heading, h3, label, p {
+    color: darkgreen;
+  }
+
+  .float-content {
+    float: left;
+  }
+
+  .zindex-content {
+    margin-top: 0;
+    float: right;
+  }
+
+}
+
+@media (min-width: 850px) {
+
+  .heading, h3, label, p {
+    color: magenta;
+  }
+
+  .normal {
+    display: none;
+  }
+
+  .secret {
+    display: inline;
+  }
+
+  body {
+    background-color: lightyellow;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+    display: none;
+  }
+
+  .meow {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .secret {
+    display: none;
+  }
+
+  .secret-stuff {
+    display: block;
+    font-size: 50px;
+    position: relative;
+  }
+
+  .left-meow {
+    width: 45%;
+    float: left;
+  }
+
+  .left-meow h4 {
+    font-size: 70px;
+    font-family: sans-serif;
+  }
+
+  .right-meow {
+    width: 45%;
+    float: right;
+  }
+
+  .first {
+    animation-duration: 2s;
+    animation-name: leftToRight;
+    animation-iteration-count: 1;
+  }
+
+  .second {
+    animation-duration: 2s;
+    animation-name: leftToRight;
+    animation-iteration-count: 1;
+  }
+
+}
