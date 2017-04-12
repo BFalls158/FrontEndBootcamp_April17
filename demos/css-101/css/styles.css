@@ -1,0 +1,116 @@
+/* Basic Stuff */
+body {
+  font-family: 'VT323', monospace;
+}
+
+.heading, secret {
+  font-size: 80px;
+  text-align: center;
+}
+
+.clearfloat {
+  clear: both;
+}
+
+.secret {
+  display: none;
+}
+
+.secret-stuff {
+  display: none;
+}
+
+/* Sections */
+.float-content, .zindex-content {
+  width: 325px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Float-Content */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.radio-buttons {
+  /*margin: 0 auto;*/
+  text-align: center;
+}
+
+.float-div,  {
+  margin-top: 16px;
+}
+
+.float-div p {
+  padding: 10px;
+}
+
+.float-div #img-float {
+  padding: 10px 10px 0px 10px;
+}
+
+/* Z-Index Content */
+.zindex-content {
+  position: relative;
+  height: 300px;
+}
+
+.redsquare, .bluesquare {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.redsquare {
+  height: 150px;
+  background-color: red;
+}
+
+.bluesquare {
+  height: 100px;
+  background-color: blue;
+}
+
+/* Meow */
+.meow {
+  display: none;
+}
+
+.meow marquee {
+  font-size: 80px;
+  color: orange;
+}
+
+.cat {
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.cat:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* Rainbow!!! */
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Animations */
+@-webkit-keyframes leftToRight {
+  0% { left: 100%; }
+  100% { left: 0%; }
+}

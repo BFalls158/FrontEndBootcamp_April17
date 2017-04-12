@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS 101</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+  </head>
+  <body>
+
+    <main>
+
+      <h2 class="heading normal">CSS Fun!</h2>
+      <h2 class="heading secret">Oh, this just changed</h2>
+
+      <section class="container">
+
+        <section class="float-content">
+
+          <h3>Float</h3>
+
+          <div class="radio-buttons">
+            <input type="radio" name="float" value="left" class="radio-float"><label for="left-float">Float Left</label>
+            <input type="radio" name="float" value="right" class="radio-float"><label for="right-float">Float Right</label>
+            <input type="radio" name="float" value="" class="radio-float"><label for="no-float">No Float</label>
+          </div>
+
+          <div class="float-div">
+            <img id="img-float" src="img/beaglepuppy.jpg" alt="Beagle Puppy">
+            <p>The Beagle is a breed of small-sized hound, similar in appearance to the much larger foxhound. The Beagle is a scent hound, developed primarily for hunting hare. With a great sense of smell and their tracking instinct, the Beagle is employed as detection dog for prohibited agricultural imports and foodstuffs in quarantine around the world. The Beagle is intelligent but single-minded. It is a popular pet due to its size, good temper, and lack of inherited health problems.</p>
+          </div>
+
+        </section>
+
+
+        <section class="zindex-content">
+
+          <div class="bluesquare"></div>
+
+          <div class="redsquare"></div>
+
+          <div class="sliderstuff">
+
+            <h3>Z-Index</h3>
+
+            <label>Z-Index Slider
+              <p>The blue box's z-index is: <span id="blueindex">0</span></p>
+              <input class="slider" value="0" type="range" min="0" max="1">
+            </label>
+          </div>
+
+        </section>
+
+      </section>
+
+      <div class="clearfloat"></div>
+
+      <div class="meow">
+
+        <div class="left-meow">
+          <h4>What's up, kitty cat?</h4>
+          <img class='cat' src="img/cute-kitty-3.jpg" alt="meowwww" />
+        </div>
+
+        <div class="right-meow">
+          <p class="first rainbow secret-stuff">There are a lot of things you can do with CSS.</p>
+          <p class="second rainbow secret-stuff">From simple styling to animations, CSS truly is an infinite universe of creativity.</p>
+        </div>
+
+      </div>
+
+    </main>
+
+    <script src="lib/jquery-2.2.4.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
