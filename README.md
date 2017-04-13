@@ -11,7 +11,7 @@ This GitHub repo is where Adam and David will share files and slides with you. B
 
 [David's Demo Site](https://dwolverton.github.io/fe-demo/) - A work-in-progress site that demonstrates a few topics including grid layout, CSS positioning and a jQuery playground.
 
-[JS Bin](http://jsbin.com), [Plunker](https://plnkr.co/), [Code Pen](https://codepen.io/), [JS Fiddle](https://jsfiddle.net/) - Sites for playing with HTML, CSS and JavaScript.
+[JS Bin](http://jsbin.com), [Plunker](https://plnkr.co/), [Code Pen](https://codepen.io/), [JS Fiddle](https://jsfiddle.net/), [REPL.it](https://repl.it/languages/javascript) - Sites for playing with HTML, CSS and JavaScript.
 
 [freeCodeCamp](https://www.freecodecamp.com/map) - a bunch of practice challenges for beginners. Good sections for us: Basic JavaScript, Object Oriented and Functional Programming, Basic Algorithm Scripting, and HTML5 and CSS if you need to brush up on that.
 
