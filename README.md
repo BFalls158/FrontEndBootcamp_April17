@@ -9,13 +9,13 @@ This GitHub repo is where Adam and David will share files and slides with you. B
 
 [How to Debug](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong) - An introduction(for beginners) on how to start fixing syntax and logical errors.
 
-[David's Demo Site](https://dwolverton.github.io/fe-demo/) - A work-in-progress site that demonstrates a few topics including grid layout, CSS positioning and a jQuery playground.
+&#9734; [David's Demo Site](https://dwolverton.github.io/fe-demo/) - A work-in-progress site that demonstrates a few topics including grid layout, CSS positioning and a jQuery playground.
 
 [JS Bin](http://jsbin.com), [Plunker](https://plnkr.co/), [Code Pen](https://codepen.io/), [JS Fiddle](https://jsfiddle.net/), [REPL.it](https://repl.it/languages/javascript) - Sites for playing with HTML, CSS and JavaScript.
 
 [freeCodeCamp](https://www.freecodecamp.com/map) - a bunch of practice challenges for beginners. Good sections for us: Basic JavaScript, Object Oriented and Functional Programming, Basic Algorithm Scripting, and HTML5 and CSS if you need to brush up on that.
 
-[Data Structures Practice #1](https://dwolverton.github.io/jsviz/apps/practice/#/?sets=arrays,objects,arrays-of-objects&sourceUrl=practice.json)
+&#9734; [Data Structures Practice #1](https://dwolverton.github.io/jsviz/apps/practice/#/?sets=arrays,objects,arrays-of-objects&sourceUrl=practice.json)
 [Data Structures Practice #2](https://dwolverton.github.io/jsviz/apps/practice/#/?sourceUrl=practice-with-start.json&sets=arrays,objects) - Practice those objects and arrays
 
 [CSS Diner](http://flukeout.github.io/) - CSS selector practice
@@ -25,7 +25,7 @@ This GitHub repo is where Adam and David will share files and slides with you. B
 ### Code Challenge Practice
 pg. 17 in your workbook has questions you might be asked in a tech interview.
 
-[Practice Core JS Structures](https://dwolverton.github.io/javascript-challenges) - My basic JavaScript practice drills live with test cases.
+&#9734; [Practice Core JS Structures](https://dwolverton.github.io/javascript-challenges) - My basic JavaScript practice drills live with test cases.
 
 [freeCodeCamp](https://www.freecodecamp.com/map) - The section called "*Basic Algorithm Scripting*" has some good entry-level code challenges. For trickier challenges, move on to "*Intermediate Algorithm Scripting*" and "*Advanced Algorithm Scripting*".
 
