@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="wordApp">
+<head>
+    <title>Angular Services</title>
+</head>
+<body>
+    <h1>Store a Word</h1>
+    <div ng-controller="formController">
+        <p class="instructions">Enter a word</p>
+        <p class="target-temperature">
+            <input type="text" ng-model="userWord"/>
+        </p>
+        <p>
+            <button type="button" ng-click="saveWord(userWord)">Save Word</button>
+        </p>
+    </div>
+
+    <div ng-controller="alertController">
+        <button type="button" ng-click="showWord()">Show Word</button>
+    </div>
+
+
+    <!-- Include angular -->
+    <script src="lib/angular.min.js"></script>
+    <!-- Include our JS files. We have to include each one here,
+         starting with the module definition file. -->
+    <script src="app.js"></script>
+
+    <script src="word-store.js" charset="utf-8"></script>
+</body>
+</html>
