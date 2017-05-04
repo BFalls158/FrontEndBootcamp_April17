@@ -1,24 +1,24 @@
 var app = angular.module('redditModule');
 
-app.controller('redditCtrl', function($scope, redditFactory) {
+app.controller('redditCtrl', function($scope, $http) {
 
-  $scope.grabPostsFromReddit = function() {
+  $scope.posts = [];
 
-    redditFactory.getPosts().then(function() {
-
-      $scope.posts = redditFactory.returnPosts();
-      console.log($scope.posts);
-
-    });
-
-  };
+  $http({
+    method: 'GET',
+    url: 'http://www.reddit.com/r/aww.json'
+  }).then(function successCallback(response) {
+    $scope.posts = response.data.data.children;
+  }, function(error) {
+    console.log(error);
+  });
 
 });
 
 app.directive('redditPost', function() {
 
   return {
-    restrict: 'AE',
+    restrict: 'E',
     replace: false,
     templateUrl: 'redditPost.html'
   }
