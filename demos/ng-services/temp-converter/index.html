@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="tempConverterApp">
+<head>
+    <title>Angular Services</title>
+</head>
+<body>
+    <div ng-controller="tempConverterController">
+        <h1>Temperature Converter</h1>
+        <p class="instructions">Enter a temperature</p>
+        <p class="target-temperature">
+            <input type="number" ng-model="sourceTemperature"/>
+        </p>
+        <p>
+            <button type="button" ng-click="convertToFahrenheit(sourceTemperature)">to Fahrenheit</button>
+            <button type="button" ng-click="convertToCelsius(sourceTemperature)">to Celsius</button>
+        </p>
+        <p ng-show="typeof targetTemperature === 'number'" class="target-temperature">
+            {{targetTemperature}} {{targetUnit}}
+        </p>
+    </div>
+
+
+    <!-- Include angular -->
+    <script src="lib/angular.min.js"></script>
+    <!-- Include our JS files. We have to include each one here,
+         starting with the module definition file. -->
+    <script src="app.js"></script>
+
+    <!-- In this example, we're showing two equivalent options. Pick only one
+         of these two files, either temp-service or temp-factory. Comment out
+         the other one. -->
+    <script src="temp-service.js"></script>
+    <!-- <script src="temp-factory.js"></script> -->
+</body>
+</html>
